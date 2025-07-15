@@ -21,3 +21,8 @@ rad.json
 #Test results file
 TestResults.xml
 venv/
+CIC-IDS-2017/
+CIC-UNSW/
+CICDDoS2019/
+2017.csv
+2019.csv

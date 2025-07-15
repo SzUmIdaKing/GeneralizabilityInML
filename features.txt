@@ -1,0 +1,93 @@
+
+Numer      Nazwa Cechy                         Typ danych     ||     Numer      Nazwa Cechy                         Typ danych 
+---------- ----------------------------------- ----------     ||     ---------- ----------------------------------- ----------
+1          Destination Port                    int64          ||     41         Packet Length Mean                  float64   
+2          Flow Duration                       int64          ||     42         Packet Length Std                   float64   
+3          Total Fwd Packets                   int64          ||     43         Packet Length Variance              float64   
+4          Total Backward Packets              int64          ||     44         FIN Flag Count                      int64     
+5          Total Length of Fwd Packets         int64          ||     45         SYN Flag Count                      int64     
+6          Total Length of Bwd Packets         int64          ||     46         RST Flag Count                      int64     
+7          Fwd Packet Length Max               int64          ||     47         PSH Flag Count                      int64     
+8          Fwd Packet Length Min               int64          ||     48         ACK Flag Count                      int64     
+9          Fwd Packet Length Mean              float64        ||     49         URG Flag Count                      int64     
+10         Fwd Packet Length Std               float64        ||     50         CWE Flag Count                      int64     
+11         Bwd Packet Length Max               int64          ||     51         ECE Flag Count                      int64     
+12         Bwd Packet Length Min               int64          ||     52         Down/Up Ratio                       int64     
+13         Bwd Packet Length Mean              float64        ||     53         Average Packet Size                 float64   
+14         Bwd Packet Length Std               float64        ||     54         Avg Fwd Segment Size                float64   
+15         Flow Bytes/s                        float64        ||     55         Avg Bwd Segment Size                float64   
+16         Flow Packets/s                      float64        ||     56         Fwd Header Length.1                 int64     
+17         Flow IAT Mean                       float64        ||     57         Fwd Avg Bytes/Bulk                  int64     
+18         Flow IAT Std                        float64        ||     58         Fwd Avg Packets/Bulk                int64     
+19         Flow IAT Max                        int64          ||     59         Fwd Avg Bulk Rate                   int64     
+20         Flow IAT Min                        int64          ||     60         Bwd Avg Bytes/Bulk                  int64     
+21         Fwd IAT Total                       int64          ||     61         Bwd Avg Packets/Bulk                int64     
+22         Fwd IAT Mean                        float64        ||     62         Bwd Avg Bulk Rate                   int64     
+23         Fwd IAT Std                         float64        ||     63         Subflow Fwd Packets                 int64     
+24         Fwd IAT Max                         int64          ||     64         Subflow Fwd Bytes                   int64     
+25         Fwd IAT Min                         int64          ||     65         Subflow Bwd Packets                 int64     
+26         Bwd IAT Total                       int64          ||     66         Subflow Bwd Bytes                   int64     
+27         Bwd IAT Mean                        float64        ||     67         Init_Win_bytes_forward              int64     
+28         Bwd IAT Std                         float64        ||     68         Init_Win_bytes_backward             int64     
+29         Bwd IAT Max                         int64          ||     69         act_data_pkt_fwd                    int64     
+30         Bwd IAT Min                         int64          ||     70         min_seg_size_forward                int64     
+31         Fwd PSH Flags                       int64          ||     71         Active Mean                         float64   
+32         Bwd PSH Flags                       int64          ||     72         Active Std                          float64   
+33         Fwd URG Flags                       int64          ||     73         Active Max                          int64     
+34         Bwd URG Flags                       int64          ||     74         Active Min                          int64     
+35         Fwd Header Length                   int64          ||     75         Idle Mean                           float64   
+36         Bwd Header Length                   int64          ||     76         Idle Std                            float64   
+37         Fwd Packets/s                       float64        ||     77         Idle Max                            int64     
+38         Bwd Packets/s                       float64        ||     78         Idle Min                            int64     
+39         Min Packet Length                   int64          ||     79         Label                               object    
+40         Max Packet Length                   int64          || 
+
+
+
+Numer      Nazwa Cechy                         Typ danych     ||     Numer      Nazwa Cechy                         Typ danych 
+---------- ----------------------------------- ----------     ||     ---------- ----------------------------------- ----------
+1          Unnamed: 0                          int64          ||     45         Bwd Packets/s                       float64   
+2          Flow ID                             object         ||     46         Min Packet Length                   float64   
+3          Source IP                           object         ||     47         Max Packet Length                   float64   
+4          Source Port                         int64          ||     48         Packet Length Mean                  float64   
+5          Destination IP                      object         ||     49         Packet Length Std                   float64   
+6          Destination Port                    int64          ||     50         Packet Length Variance              float64   
+7          Protocol                            int64          ||     51         FIN Flag Count                      int64     
+8          Timestamp                           object         ||     52         SYN Flag Count                      int64     
+9          Flow Duration                       int64          ||     53         RST Flag Count                      int64     
+10         Total Fwd Packets                   int64          ||     54         PSH Flag Count                      int64     
+11         Total Backward Packets              int64          ||     55         ACK Flag Count                      int64     
+12         Total Length of Fwd Packets         float64        ||     56         URG Flag Count                      int64     
+13         Total Length of Bwd Packets         float64        ||     57         CWE Flag Count                      int64     
+14         Fwd Packet Length Max               float64        ||     58         ECE Flag Count                      int64     
+15         Fwd Packet Length Min               float64        ||     59         Down/Up Ratio                       float64   
+16         Fwd Packet Length Mean              float64        ||     60         Average Packet Size                 float64   
+17         Fwd Packet Length Std               float64        ||     61         Avg Fwd Segment Size                float64   
+18         Bwd Packet Length Max               float64        ||     62         Avg Bwd Segment Size                float64   
+19         Bwd Packet Length Min               float64        ||     63         Fwd Header Length.1                 int64     
+20         Bwd Packet Length Mean              float64        ||     64         Fwd Avg Bytes/Bulk                  int64     
+21         Bwd Packet Length Std               float64        ||     65         Fwd Avg Packets/Bulk                int64     
+22         Flow Bytes/s                        float64        ||     66         Fwd Avg Bulk Rate                   int64     
+23         Flow Packets/s                      float64        ||     67         Bwd Avg Bytes/Bulk                  int64     
+24         Flow IAT Mean                       float64        ||     68         Bwd Avg Packets/Bulk                int64     
+25         Flow IAT Std                        float64        ||     69         Bwd Avg Bulk Rate                   int64     
+26         Flow IAT Max                        float64        ||     70         Subflow Fwd Packets                 int64     
+27         Flow IAT Min                        float64        ||     71         Subflow Fwd Bytes                   int64     
+28         Fwd IAT Total                       float64        ||     72         Subflow Bwd Packets                 int64     
+29         Fwd IAT Mean                        float64        ||     73         Subflow Bwd Bytes                   int64     
+30         Fwd IAT Std                         float64        ||     74         Init_Win_bytes_forward              int64     
+31         Fwd IAT Max                         float64        ||     75         Init_Win_bytes_backward             int64     
+32         Fwd IAT Min                         float64        ||     76         act_data_pkt_fwd                    int64     
+33         Bwd IAT Total                       float64        ||     77         min_seg_size_forward                int64     
+34         Bwd IAT Mean                        float64        ||     78         Active Mean                         float64   
+35         Bwd IAT Std                         float64        ||     79         Active Std                          float64   
+36         Bwd IAT Max                         float64        ||     80         Active Max                          float64   
+37         Bwd IAT Min                         float64        ||     81         Active Min                          float64   
+38         Fwd PSH Flags                       int64          ||     82         Idle Mean                           float64   
+39         Bwd PSH Flags                       int64          ||     83         Idle Std                            float64   
+40         Fwd URG Flags                       int64          ||     84         Idle Max                            float64   
+41         Bwd URG Flags                       int64          ||     85         Idle Min                            float64   
+42         Fwd Header Length                   int64          ||     86         SimillarHTTP                        object    
+43         Bwd Header Length                   int64          ||     87         Inbound                             int64     
+44         Fwd Packets/s                       float64        ||     88         Label                               object   
+
