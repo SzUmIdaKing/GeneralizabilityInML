@@ -1,1 +1,1 @@
-# GeneralizationCapabilityOfML
+# GeneralizabilityInML
